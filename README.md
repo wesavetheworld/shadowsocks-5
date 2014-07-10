@@ -1,4 +1,4 @@
-shadowsocks
+Shadowsocks
 ===========
 
-One key install shadowsocks shell
+One key install shadowsocks on ubuntu
