@@ -7,4 +7,5 @@ sudo sh -c "echo '[program:shadowsocks]\ncommand=ssserver -c /etc/shadowsocks.js
 sudo sh -c "echo 'ulimit -n 51200' >> /etc/default/supervisor"
 sudo service supervisor start
 sudo supervisorctl reload
+ping -c 4 127.0.0.1 >/dev/null
 netstat -nat

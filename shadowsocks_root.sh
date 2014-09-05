@@ -7,4 +7,5 @@ sh -c "echo '[program:shadowsocks]\ncommand=ssserver -c /etc/shadowsocks.json\na
 sh -c "echo 'ulimit -n 51200' >> /etc/default/supervisor"
 service supervisor start
 supervisorctl reload
+ping -c 4 127.0.0.1 >/dev/null
 netstat -nat
