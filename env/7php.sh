@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo apt-get install -y php5 php5-fpm php5-cli php5-mysql php5-pgsql php5-curl php5-gd php5-idn php-pear php5-imagick php5-imap php5-mcrypt php5-memcache php5-mhash php5-ming php5-pspell php5-recode php5-snmp php5-tidy php5-xmlrpc php5-sqlite php5-xsl
